@@ -63,7 +63,7 @@
             // 
             // btnList
             // 
-            this.btnList.BackColor = System.Drawing.Color.DarkSalmon;
+            this.btnList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnList.Location = new System.Drawing.Point(212, 255);
             this.btnList.Name = "btnList";
             this.btnList.Size = new System.Drawing.Size(286, 50);
@@ -120,7 +120,7 @@
             // 
             // btnAdd
             // 
-            this.btnAdd.BackColor = System.Drawing.Color.DarkSalmon;
+            this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnAdd.Location = new System.Drawing.Point(212, 328);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(286, 50);
@@ -131,7 +131,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.BackColor = System.Drawing.Color.DarkSalmon;
+            this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnDelete.Location = new System.Drawing.Point(212, 399);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(286, 50);
@@ -142,7 +142,7 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.BackColor = System.Drawing.Color.DarkSalmon;
+            this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnUpdate.Location = new System.Drawing.Point(212, 467);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(286, 50);
@@ -153,7 +153,7 @@
             // 
             // btnGetByID
             // 
-            this.btnGetByID.BackColor = System.Drawing.Color.DarkSalmon;
+            this.btnGetByID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnGetByID.Location = new System.Drawing.Point(212, 538);
             this.btnGetByID.Name = "btnGetByID";
             this.btnGetByID.Size = new System.Drawing.Size(286, 50);
@@ -164,8 +164,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(1375, 661);
             this.Controls.Add(this.btnGetByID);
             this.Controls.Add(this.btnUpdate);
