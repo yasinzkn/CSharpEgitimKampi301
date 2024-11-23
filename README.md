@@ -38,3 +38,6 @@ Bu projede Tur Projesinin Lokasyon İşlemlerini gerçekleştirdik. Lokasyon İ�
 
 ### :pushpin:Proje 17 - C# ile EntityFramework: EfTravelProject - Statistics
 Bu projede Tur Projesinin İstatistik sayfasının tasarımını yaptık. LINQ Sorguları ile birlikte istatistik sayfamızın içeriğini ekrana yansıttık.
+
+
+<img width="746" alt="EfTravelProject" src="https://github.com/user-attachments/assets/994cae74-66e1-436e-bfa6-e70bf2aaec12">
