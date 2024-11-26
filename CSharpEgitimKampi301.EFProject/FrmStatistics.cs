@@ -31,10 +31,10 @@ namespace CSharpEgitimKampi301.EFProject
             lblGuideCount.Text = db.Guide.Count().ToString();
 
             //Ortalama Kapasite
-            lblAvgCapacity.Text = db.Location.Average(x => x.Capacity).ToString();
+            lblAvgCapacity.Text = db.Location.Average(x => x.Capacity).Value.ToString("0.00");
 
             //Ortalma Tur Fiyatı
-            lblAvgLocationPrice.Text = db.Location.Average(x => x.Price).ToString() + " ₺";
+            lblAvgLocationPrice.Text = db.Location.Average(x => x.Price).Value.ToString("0,000.00") + " ₺";
 
             //En Son Eklenen Ülke
             int lastCountryId = db.Location.Max(x => x.LocationId);
@@ -43,18 +43,18 @@ namespace CSharpEgitimKampi301.EFProject
             //Kapadokya Tur Kapasitesi
             lblCappadociaLocationCapacity.Text = db.Location.Where(x => x.City == "Kapadokya").Select(y => y.Capacity).FirstOrDefault().ToString();
 
-            //Türkiye Turları ortalama kapasite
+            //Türkiye Turları Ortalama Kapasite
             lblTurkiyeCapacityAvg.Text = db.Location.Where(x => x.Country == "Türkiye").Average(y => y.Capacity).ToString();
 
             //Roma Gezisi Rehberi
             var romeGuideId = db.Location.Where(x => x.City == "Roma Turistik").Select(y => y.GuideId).FirstOrDefault();
             lblRomeGuideName.Text = db.Guide.Where(x => x.GuideId == romeGuideId).Select(y => y.GuideName + " " + y.GuideSurname).FirstOrDefault().ToString();
 
-            //En yüksek kapasite
+            //En Yüksek Kapasite
             var maxCapacity = db.Location.Max(x => x.Capacity);
             lblMaxCapacityLocation.Text = db.Location.Where(x => x.Capacity == maxCapacity).Select(y => y.City).FirstOrDefault().ToString();
 
-            //En Yüksek Ücret
+            //En Pahalı Tur
             var maxPrice = db.Location.Max(x => x.Price);
             lblMaxPriceLocation.Text = db.Location.Where(x => x.Price == maxPrice).Select(y => y.City).FirstOrDefault().ToString();
 
