@@ -16,8 +16,8 @@ Bu projede ilk olarak sınıflarımız arasındaki ilişkileri tanımladık. Ger
 
 ---
 
-### :pushpin:Proje 13 - C# ile N Katmanlı Mimari: Migration & Abstract Interface
-Bu projede Migration eklemesi yaptık. DataAccessLayer katmanında Abstract klasörü içerisinde interface ouşturduk.
+### :pushpin:Proje 13 - C# N ile Katmanlı Mimari: Migration & Abstract Interface
+Bu projede Migration eklemesi yapıldı. DataAccessLayer katmanında Abstract klasörü içerisinde interface oluşturuldu.
 
 ---
 
@@ -36,10 +36,15 @@ Bu projede Tur Projesinin Lokasyon İşlemlerini gerçekleştirdik. Lokasyon İ�
 
 ---
 
-### :pushpin:Proje 17 - C# ile EntityFramework: EfTravelProject - Statistics
+### :pushpin:Proje 17 - C# EntityFramework: EfTravelProject - Statistics
 Bu projede Tur Projesinin İstatistik sayfasının tasarımını yaptık. LINQ Sorguları ile birlikte istatistik sayfamızın içeriğini ekrana yansıttık.
 
 Projenin ilgili sayfasına ait ekran görüntüsü :camera:
 <div align = "center">
 <img width="824" alt="EfTravelProject" src="https://github.com/user-attachments/assets/994cae74-66e1-436e-bfa6-e70bf2aaec12">
 </div>
+
+---
+
+### :pushpin:Proje 18 - C# EntityFramework: EntityState - Generic Repository
+Bu projede Entity State komutları eklendi ve Generic Repository yapısı kuruldu. EntityFramework klasörü içerisine ilgili sınıflar oluşturuldu.
