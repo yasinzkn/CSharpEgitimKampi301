@@ -48,3 +48,8 @@ Projenin ilgili sayfasına ait ekran görüntüsü :camera:
 
 ### :pushpin:Proje 18 - C# EntityFramework: EntityState - Generic Repository
 Bu projede Entity State komutları eklendi ve Generic Repository yapısı kuruldu. EntityFramework klasörü içerisine ilgili sınıflar oluşturuldu.
+
+---
+
+### :pushpin:Proje 19 - C# Business Layer - Logic Rules
+Business Layer içerisinde Abstract ve Concrete adında iki klasör eklendi. CRUD işlemlerinin interface olarak tutulmasını sağlamak adına Abstract klasörü içerisine interface eklemeleri yapıldı. Validasyon işlemleri için Concrete klasörü içerisinde sınıflar tanımlandı içleri dolduruldu. Presentation Layer içerisinde Kategori Formu için tasarım yapıldı.
