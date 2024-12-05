@@ -56,5 +56,5 @@ Business Layer içerisinde Abstract ve Concrete adında iki klasör eklendi. CRU
 
 ---
 
-### :pushpin:Proje 19 - C# Dependency Injection
+### :pushpin:Proje 20 - C# Dependency Injection
 Dependency Injection ile ilgili çalışmalar yapıldı. Kategori Formundaki butonlar ayarlandı.
