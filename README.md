@@ -53,3 +53,8 @@ Bu projede Entity State komutları eklendi ve Generic Repository yapısı kuruld
 
 ### :pushpin:Proje 19 - C# Business Layer - Logic Rules
 Business Layer içerisinde Abstract ve Concrete adında iki klasör eklendi. CRUD işlemlerinin interface olarak tutulmasını sağlamak adına Abstract klasörü içerisine interface eklemeleri yapıldı. Validasyon işlemleri için Concrete klasörü içerisinde sınıflar tanımlandı içleri dolduruldu. Presentation Layer içerisinde Kategori Formu için tasarım yapıldı.
+
+---
+
+### :pushpin:Proje 19 - C# Dependency Injection
+Dependency Injection ile ilgili çalışmalar yapıldı. Kategori Formundaki butonlar ayarlandı.
