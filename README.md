@@ -58,3 +58,8 @@ Business Layer içerisinde Abstract ve Concrete adında iki klasör eklendi. CRU
 
 ### :pushpin:Proje 20 - C# Dependency Injection
 Dependency Injection ile ilgili çalışmalar yapıldı. Kategori Formundaki butonlar ayarlandı.
+
+---
+
+### :pushpin:Proje 21
+Product Formunun tasarımı ve listeleme işlemleri yapıldı. Entitye özgü metotlar yazıldı.
