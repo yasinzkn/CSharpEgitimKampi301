@@ -61,5 +61,5 @@ Dependency Injection ile ilgili çalışmalar yapıldı. Kategori Formundaki but
 
 ---
 
-### :pushpin:Proje 21
+### :pushpin:Proje 21 - C# EntityFramework
 Product Formunun tasarımı ve listeleme işlemleri yapıldı. Entitye özgü metotlar yazıldı.
